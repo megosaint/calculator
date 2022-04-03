@@ -16,18 +16,16 @@ body {
     padding: 10px;
 }
 
-#main div {
-    flex-grow: 1;
-}
-
 .display {
     background-color: #b2b9b7;
     margin: 15px;
     border-radius: 5%;
     margin-bottom: 50px;
     display: flex;
-    align-items: center;
-    justify-content: end;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 p {
@@ -37,11 +35,22 @@ p {
 
 .row {
     display: flex;
+    flex-shrink: 0;;
+    flex-grow: 1;
 }
 
 
 .row button {
-    flex: 1 1 0;
+    flex: 1 0 0;
     margin: 1px;
     border-radius: 15%;
+}
+
+.display-lower {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.display-upper{
+    height: 18px;
 }
