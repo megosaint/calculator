@@ -55,20 +55,20 @@ p {
     height: 18px;
 }
 
-.oper {
+.oper-color {
     background-color: orange;
 }
 
-.number,
-.dec {
+.number-color,
+.dec-color {
     background-color: #11EEB2;
 }
 
-.equal {
+.equal-color{
     background-color: #61EE10;
 }
 
-.clear,
-.back {
+.clear-color,
+.back-color {
     background-color: dodgerblue;
 }
