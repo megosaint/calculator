@@ -43,7 +43,7 @@ p {
 .row button {
     flex: 1 0 0;
     margin: 1px;
-    border-radius: 15%;
+    border-radius: 5px;
 }
 
 .display-lower {
@@ -53,4 +53,22 @@ p {
 
 .display-upper{
     height: 18px;
+}
+
+.oper {
+    background-color: orange;
+}
+
+.number,
+.dec {
+    background-color: #11EEB2;
+}
+
+.equal {
+    background-color: #61EE10;
+}
+
+.clear,
+.back {
+    background-color: dodgerblue;
 }
